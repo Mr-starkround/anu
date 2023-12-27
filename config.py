@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "67eb42c8167df3ebe8935e961e3349e5")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002093164388"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "1228099043")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
@@ -50,7 +50,7 @@ while True:
     FORCE_SUB_COUNTER += 1
 
 # Berapa baris maunya
-BUTTONS_PER_ROW = int(os.environ.get("BUTTONS_PER_ROW", "3"))
+BUTTONS_PER_ROW = int(os.environ.get("BUTTONS_PER_ROW", "6"))
 
 # Tulisan joinnya mau gimana
 BUTTONS_JOIN_TEXT = os.environ.get("BUTTONS_JOIN_TEXT", "ᴊᴏɪɴ")
